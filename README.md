@@ -1,18 +1,14 @@
-# Front-End Information and Stuff
+# Yet Another Ground Station GUI
 ## What is this?
-This is the Purdue Orbital Ground Station Graphical User Interface Front-End. This is the window that the flight team will use to communicate with the Ground Station Back-End and ultimately the launch structure to send commands and receive data. It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and served with [Electron](https://www.electronjs.org/).
+This is a reimplimenation of the Purdue Orbital Ground Station Graphical User Interface as an electorn app to allow for better installation, compatability and styling. This is the window that the flight team will use to communicate with the Ground Station and ultimately the Launch Structure by sending commands and receiving data. It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and served with [Electron](https://www.electronjs.org/).
 
 ## Sounds cool, how do I get set up for development?
 The first thing you're going to want to do is clone this repository:
 ```sh
-git clone https://github.com/purdue-orbital/PSUI.git
-```
-Now you need to get up to date with the most recent changes made to the frontend. To do this simply checkout the frontend branch:
-```sh
-git checkout frontend
+git clone https://github.com/purdue-orbital/yags-gui.git
 ```
 
-From there, simply move into `gui/` directory and install all necessary dependencies:
+From there, simply install all necessary dependencies using the node package manager:
 ```sh
 npm install
 ```
